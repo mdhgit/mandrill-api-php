@@ -114,7 +114,12 @@ class Message extends Struct{
      * @var bool whether or not to evaluate merge tags in the message
      */
     public $merge;
-
+    
+    /**
+     * @var string for merge language
+     */
+    public $merge_language;
+    
     /**
      * @var array Global merge variables to be used for all recipients. Can be overridden on a per-recipient basis.
      */
